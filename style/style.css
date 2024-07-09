@@ -284,3 +284,6 @@ q > span {
   padding: 40px;
   background: rgba(255, 223, 0, 0.05);
 }
+.link {
+  color: rgb(13, 19, 33);
+}
