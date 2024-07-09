@@ -63,3 +63,44 @@ body {
   font-size: 18px;
 }
 /* here hero_bg end  */
+/* section start here */
+.frame_one {
+  margin-top: 100px;
+}
+.section_One_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section_one_content {
+  width: 852px;
+  height: 115px;
+
+  margin-bottom: 48px;
+}
+.section_one_title {
+  width: 852px;
+  height: 49px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section_one_text {
+  width: 852px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  align-self: stretch;
+}
+/* section end here */
