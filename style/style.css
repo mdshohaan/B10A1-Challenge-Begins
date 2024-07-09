@@ -135,6 +135,16 @@ body {
   color: rgb(13, 19, 33);
   text-decoration: none;
 }
+.btn_two_main:hover {
+  background: #05c46b;
+
+  border: none;
+  border-radius: 8px;
+}
+.btn_two:hover {
+  color: white;
+}
+
 /* frame three start */
 .frame_three {
   position: static;
@@ -286,4 +296,11 @@ q > span {
 }
 .link {
   color: rgb(13, 19, 33);
+}
+.link:hover {
+  color: #ffff;
+  background: #c44569;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.1s;
 }
