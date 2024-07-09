@@ -83,12 +83,12 @@ body {
   width: 852px;
   height: 49px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 45px;
+  font-family: sans-serif;
+  font-size: 32px;
   font-weight: 800;
   line-height: 37px;
   text-align: center;
-  margin-bottom: 30px;
+  align-self: stretch;
 }
 .section_one_text {
   width: 852px;
@@ -102,5 +102,41 @@ body {
   text-align: center;
   opacity: 0.7;
   align-self: stretch;
+}
+/* farme_two */
+.frame_two {
+  position: static;
+  width: 946px;
+  height: 336px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding: 48px;
+
+  align-self: stretch;
+
+  opacity: 0.7;
+  margin: 0 auto;
+}
+.frame_two_title {
+  margin: 16px 0px;
+}
+.btn_two_main {
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+}
+.btn_two {
+  width: 131px;
+  height: 23px;
+  color: rgb(13, 19, 33);
+  text-decoration: none;
 }
 /* section end here */
