@@ -108,15 +108,11 @@ body {
   position: static;
   width: 946px;
   height: 336px;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   padding: 48px;
-
   align-self: stretch;
-
   opacity: 0.7;
   margin: 0 auto;
 }
@@ -138,5 +134,31 @@ body {
   height: 23px;
   color: rgb(13, 19, 33);
   text-decoration: none;
+}
+/* frame three start */
+.frame_three {
+  position: static;
+  width: 946px;
+  height: 336px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 48px;
+  align-self: stretch;
+  opacity: 0.7;
+  margin: 0 auto;
+}
+/* frame_four start */
+.frame_four {
+  position: static;
+  width: 946px;
+  height: 336px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 48px;
+  align-self: stretch;
+  opacity: 0.7;
+  margin: 0 auto;
 }
 /* section end here */
