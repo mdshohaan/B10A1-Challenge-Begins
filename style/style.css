@@ -23,6 +23,7 @@ body {
   max-width: 1800px;
   height: 652px;
   background-image: url(./assets/Hero-bg.png);
+  margin: 0 auto;
 }
 .hero_bg {
   width: 998px;
@@ -211,6 +212,21 @@ q > span {
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+  width: 950px;
+  height: 440px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.inspire_me_inside {
+  border-radius: 15px;
+  margin: 0 auto;
 }
 .main_two h1 {
   color: rgb(13, 19, 33);
@@ -220,6 +236,7 @@ q > span {
   line-height: 37px;
   letter-spacing: 0%;
   text-align: center;
+  margin-top: 40px;
 }
 .main_two p {
   color: rgb(13, 19, 33);
@@ -309,8 +326,14 @@ q > span {
   transition: 0.1s;
 }
 /* footer start here */
+
 .target {
   margin-top: 110px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .target h1 {
   width: 852px;
@@ -325,6 +348,7 @@ q > span {
 
   text-align: center;
   margin: 0 auto;
+  margin-top: 40px;
 }
 .target p {
   color: rgb(13, 19, 33);
@@ -337,15 +361,15 @@ q > span {
   margin-top: 15px;
 }
 .react_framework {
-  margin-top: 70px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
-  /* margin-bottom: 10px; */
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
   padding: 40px;
   background: rgb(255, 255, 255);
+  margin: 0 auto;
 }
 .react_framework img {
   margin-left: 60px;
