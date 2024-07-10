@@ -66,6 +66,12 @@ body {
 .main_text {
   color: white;
   font-size: 18px;
+  text-decoration: none;
+}
+
+.btn_primary:hover {
+  background: rgba(126, 214, 223, 1);
+  border: none;
 }
 /* here hero_bg end  */
 /* section start here */
@@ -323,7 +329,7 @@ q > span {
   background: #c44569;
   padding: 10px 20px;
   border-radius: 8px;
-  transition: 0.1s;
+  transition: 0.4s;
 }
 /* footer start here */
 
@@ -391,13 +397,22 @@ q > span {
 }
 .footer_final {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
   padding: 64px 48px 64px 48px;
+  /* height: 313px;
+  width: 1670px; */
+  border-radius: 16px;
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+
+  padding: 64px 48px;
+  margin: 0px auto;
 }
 .div_final {
   background-image: url(./assets/handshake.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -408,6 +423,7 @@ q > span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
 }
 .div_final h1 {
   color: rgb(255, 255, 255);
@@ -472,6 +488,10 @@ q > span {
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+}
+.btn_footer a {
+  text-decoration: none;
+  color: rgb(13, 19, 33);
 }
 
 /* footer end here */
