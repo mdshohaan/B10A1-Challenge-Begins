@@ -506,5 +506,28 @@ q > span {
   justify-content: center;
   align-items: center;
 }
+.last_one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 92%;
+  height: 36px;
+  align-items: center;
+  padding: 3%;
+  margin: 40px;
+  box-sizing: border-box;
+}
+.icon_last {
+  /* Frame 25 */
+
+  width: 157.01px;
+  height: 36px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
 
 /* footer end here */
