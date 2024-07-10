@@ -364,12 +364,13 @@ q > span {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
+
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
   padding: 40px;
   background: rgb(255, 255, 255);
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  box-sizing: border-box;
 }
 .react_framework img {
   margin-left: 60px;
@@ -387,6 +388,90 @@ q > span {
 }
 .react_content {
   margin-left: 25px;
+}
+.footer_final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 48px 64px 48px;
+}
+.div_final {
+  background-image: url(./assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 1140px; */
+  height: 313px;
+  width: 1670px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div_final h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.div_final p {
+  color: rgb(255, 255, 255);
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer_input {
+  color: rgb(255, 255, 255);
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+
+  text-align: center;
+  /* box-sizing: border-box; */
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  width: 548px;
+  height: 57px;
+  margin: 0 auto;
+
+  background: rgb(255, 255, 255);
+}
+.footer_input_last {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.btn_footer {
+  width: 120px;
+  height: 57px;
+
+  padding: 17px 20px 17px 20px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 /* footer end here */
