@@ -377,6 +377,9 @@ q > span {
   background: rgb(255, 255, 255);
   /* margin: 0 auto; */
   box-sizing: border-box;
+  width: 90%;
+  height: 100%;
+  padding: 2%;
 }
 .react_framework img {
   margin-left: 60px;
@@ -409,6 +412,10 @@ q > span {
 
   padding: 64px 48px;
   margin: 0px auto;
+  box-sizing: border-box;
+  width: 92%;
+  height: 100%;
+  padding: 1%;
 }
 .div_final {
   background-image: url(./assets/handshake.jpg);
@@ -418,7 +425,7 @@ q > span {
   background-size: cover;
   /* width: 1140px; */
   height: 313px;
-  width: 1670px;
+  width: 100%;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -492,6 +499,12 @@ q > span {
 .btn_footer a {
   text-decoration: none;
   color: rgb(13, 19, 33);
+}
+.solution_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* footer end here */
